@@ -1,0 +1,21 @@
+{
+  "name": "davispeixoto/php-batch-app",
+  "description": "Dummy application for testing the php-batch implementation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Davis Peixoto",
+      "email": "davis.peixoto@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "davispeixoto/php-batch": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "minimum-stability": "dev"
+}
