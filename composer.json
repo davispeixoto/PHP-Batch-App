@@ -2,6 +2,10 @@
   "name": "davispeixoto/php-batch-app",
   "description": "Dummy application for testing the php-batch implementation",
   "license": "MIT",
+  "repositories": [{
+    "type": "vcs",
+    "url": "/home/dave/Documents/personal-projects/ativos/PHP-Batch"
+  }],
   "authors": [
     {
       "name": "Davis Peixoto",
@@ -10,7 +14,8 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "davispeixoto/php-batch": "*"
+    "davispeixoto/php-batch": "*",
+    "myclabs/php-enum": "1.3.2"
   },
   "autoload": {
     "psr-4": {
