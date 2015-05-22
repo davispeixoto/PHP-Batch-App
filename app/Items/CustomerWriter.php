@@ -17,6 +17,6 @@ use Davispeixoto\PhpBatch\Contracts\ItemWriterInterface;
 class CustomerWriter implements ItemWriterInterface
 {
 
-    
+
 
 }
